@@ -1,0 +1,61 @@
+body{
+    background-color: brown;
+
+}
+
+.calc{
+    margin: 50px auto;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    box-shadow: 4px 4px 4px gray;
+}
+
+.calc-screen{
+    height: 125px;
+    pad: 10px;
+    display: gird;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+
+
+.calc-sccreen p {
+    text-align: center;
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 25px;
+
+}
+
+
+.buttons{
+    display: gird;
+    grid-template-areas: 
+    "ac plus-minus percentdevision"
+    "seven eight nine multiply"
+    "four five six  minus "
+    "one two three plus "
+    "zero dot equel";
+    grid-gap: 7px;
+  
+    justify-content:   center ;
+}
+   
+.btn{
+    width: 60px;
+    height:60px ;
+    background-color: #333;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+
+}
